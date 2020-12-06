@@ -10,4 +10,4 @@ npm install node-mouse --save
 mkdir -p $HOME/Pictures/Screenshots/
 chmod 777 /dev/input/mice
 
-pm2 start /usr/local/sss/index.js
+pm2 start index.js
