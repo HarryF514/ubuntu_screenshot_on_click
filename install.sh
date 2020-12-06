@@ -1,6 +1,6 @@
 #!/bin/bash
-mkdir /usr/localsss
-cd /usr/localsss
+mkdir /usr/local/sss
+cd /usr/local/sss
 apt-get install scrot -y
 npm install pm2@latest -g
 npm init -y
