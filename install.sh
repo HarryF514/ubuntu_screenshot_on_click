@@ -3,9 +3,9 @@ if which node >/dev/null; then
     echo exists
 else
     echo node does not exist, please install node first
-    sudp apt install nodejs
-    sudo apt-get install nodejs-dev node-gyp libssl1.0-dev
-    sudo apt install npm
+    sudp apt install nodejs -y
+    sudo apt-get install nodejs-dev node-gyp libssl1.0-dev -y
+    sudo apt install npm -y
 fi
 
 mkdir /usr/local/sss
