@@ -1,6 +1,6 @@
 #!/bin/bash
 mkdir /usr/local/sss
-
+cd /usr/local/sss
 curl https://raw.githubusercontent.com/harryyuanfeng/ubuntu_screenshot_on_click/main/index.js --output /usr/local/sss/index.js
 
 apt-get install scrot -y
